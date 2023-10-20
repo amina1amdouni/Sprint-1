@@ -34,7 +34,7 @@ function equal(num1,num2){
 
 
 }
-////////////exercice3
+///////////////////exercice3
 function add(){
     var x=2
     return x=3
