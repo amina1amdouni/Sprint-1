@@ -73,3 +73,27 @@ function add(){
                         else{ return false}
                     }
                     ////////////ex9
+                    function calculateGrade(test) {
+                        if (test >= 90 && test <= 100) {
+                            return "A";
+                        } else if (test >= 80 && test < 90) {
+                            return "B";
+                        } else if (test >= 70 && test< 80) {
+                            return "C";
+                        } else if (test >= 60 && test < 70) {
+                            return "D";
+                        } else if (test >= 0 && test < 60) {
+                            return "F";
+                        } else {
+                            return "Invalid score"
+                        }
+                    }
+                    /////////ex10
+                    function week(day){
+                        if (day==='monday' ||day==='tuesday'||day==='Wednesday' ||day==='thursday'|| day==='friday')
+                            return 'its a weekday'
+                        else if (day==='saturday'||day==='sunday'){
+                            return 'its weekend'
+                        }
+                    }
+
