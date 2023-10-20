@@ -22,7 +22,7 @@
 
 // Problem: Create a function that takes a day of the week as an argument and returns whether it's a weekday or a weekend day.
 ///////////////exercice1
-var x=2
+var x=20
 function add(){
     return x
 }
@@ -37,8 +37,39 @@ function equal(num1,num2){
 ///////////////////exercice3
 function add(){
     var x=2
-    return x=3
+    return x=x+2
 }
 undefined
 add()
-3
+4
+/////////////////ex4
+var x=2
+function add(){
+    return x}
+    //////////////ex5
+    function hello(x){
+        return typeof(x)
+          }
+          ///////////ex6
+          function age(a){
+            if (a<10){
+                return 'its a child'}
+                    else if (a>10 && a<18){
+                return 'its a teenager'}
+                    else if (a>18 && a<45 ){
+                return 'its an adult'}
+                    else {return 'its an senior citizen'}}
+                    /////////////////exercice7
+                    function hello1 (x){
+                        if (x%2===0){
+                            return 'even'}
+                        else {return 'odd'
+                             }
+                    }
+                    ////ex 8
+                    function login(username,passeword){
+                        if (username==='aziz'&& passeword===1234){
+                            return true}
+                        else{ return false}
+                    }
+                    ////////////ex9
