@@ -35,9 +35,10 @@ function equal(num1,num2){
 
 }
 ////////////exercice3
-function constant (num1,num2){
-    var x='amina'
-    x=aziz
-    return x
-
+function add(){
+    var x=2
+    return x=3
 }
+undefined
+add()
+3
