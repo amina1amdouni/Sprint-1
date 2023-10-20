@@ -21,3 +21,23 @@
 // Problem: Write a function that calculates the grade for a given test score. The function should return "A," "B," "C," "D," or "F" based on the score.
 
 // Problem: Create a function that takes a day of the week as an argument and returns whether it's a weekday or a weekend day.
+///////////////exercice1
+var x=2
+function add(){
+    return x
+}
+///////////exercice2
+function equal(num1,num2){
+    if (num1===num2){
+    return true }
+    else {return false }
+
+
+}
+////////////exercice3
+function constant (num1,num2){
+    var x='amina'
+    x=aziz
+    return x
+
+}
